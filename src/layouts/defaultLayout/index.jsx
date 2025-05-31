@@ -5,7 +5,7 @@ export const DefaultLayout  = ({children}) =>{
     return (
         <div className="DefaultLayout">
             <Header/>
-            <div className="content">
+            <div className="">
                 {children}
             </div>
             <Footer/>

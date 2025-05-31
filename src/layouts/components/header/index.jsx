@@ -25,19 +25,87 @@ export const Header = () => {
   ];
 
   return (
-    <nav className="fixed w-full z-50 bg-slate-900/10 backdrop-blur-sm border-b border-slate-800">
+    <nav className="fixed w-full z-50 bg-slate-900/90 backdrop-blur-sm border-b border-slate-800">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-blue-500 font-bold text-2xl">Portfolio</h1>
-        <div>
-          <ul className="flex gap-5 text-white text-xs">
-            {navbar_items.map((item) => {
-              return (
-                <li>
-                  <Link to={item.path}>{item.title}</Link>
-                </li>
-              );
-            })}
-          </ul>
+        <a href="#" className="text-2xl font-bold gradient-text">
+          Portfolio
+        </a>
+
+        <div className="hidden md:flex space-x-8">
+          <a
+            href="#home"
+            className="nav-link text-slate-300 hover:text-white transition"
+          >
+            Home
+          </a>
+          <a
+            href="#about"
+            className="nav-link text-slate-300 hover:text-white transition"
+          >
+            About
+          </a>
+          <a
+            href="#projects"
+            className="nav-link text-slate-300 hover:text-white transition"
+          >
+            Projects
+          </a>
+          <a
+            href="#skills"
+            className="nav-link text-slate-300 hover:text-white transition"
+          >
+            Skills
+          </a>
+          <a
+            href="#contact"
+            className="nav-link text-slate-300 hover:text-white transition"
+          >
+            Contact
+          </a>
+        </div>
+
+        <div className="md:hidden">
+          <button id="menu-toggle" className="text-white focus:outline-none">
+            <i className="fas fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+
+      <div
+        id="mobile-menu"
+        className="hidden md:hidden bg-slate-900 border-b border-slate-800"
+      >
+        <div className="container mx-auto px-4 py-2 flex flex-col space-y-3">
+          <a
+            href="#home"
+            className="py-2 text-slate-300 hover:text-white transition"
+          >
+            Home
+          </a>
+          <a
+            href="#about"
+            className="py-2 text-slate-300 hover:text-white transition"
+          >
+            About
+          </a>
+          <a
+            href="#projects"
+            className="py-2 text-slate-300 hover:text-white transition"
+          >
+            Projects
+          </a>
+          <a
+            href="#skills"
+            className="py-2 text-slate-300 hover:text-white transition"
+          >
+            Skills
+          </a>
+          <a
+            href="#contact"
+            className="py-2 text-slate-300 hover:text-white transition"
+          >
+            Contact
+          </a>
         </div>
       </div>
     </nav>

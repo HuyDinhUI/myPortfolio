@@ -7,3 +7,15 @@
     color: transparent;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.1);
+}
+
+.project-card{
+    transition: 0.5s;
+}
