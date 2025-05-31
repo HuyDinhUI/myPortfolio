@@ -3,23 +3,23 @@ import { Link } from "react-router-dom";
 export const Footer = () => {
   const navbar_items = [
     {
-      title: "Home",
-      path: "/",
+      title: "Trang Chủ",
+      path: "#",
     },
     {
-      title: "About",
+      title: "Thông Tin",
       path: "#about",
     },
     {
-      title: "Projects",
-      path: "#project",
+      title: "Dự Án",
+      path: "#projects",
     },
     {
-      title: "Skills",
+      title: "Kỹ Năng",
       path: "#skill",
     },
     {
-      title: "Contact",
+      title: "Liên Hệ",
       path: "#contact",
     },
   ];
@@ -32,7 +32,7 @@ export const Footer = () => {
           {navbar_items.map((item) => {
             return (
               <li>
-                <Link to={item.path}>{item.title}</Link>
+                <a href={item.path}>{item.title}</a>
               </li>
             );
           })}
