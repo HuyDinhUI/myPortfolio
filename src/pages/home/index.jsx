@@ -387,21 +387,20 @@ export const Home = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-white">
-                  Project Name
+                  Take Note App
                 </h3>
                 <p className="text-slate-400 mb-4">
-                  A modern web application with responsive design and
-                  interactive features.
+                  Một ứng dụng ghi chú với các tính năng cơ bản và nâng cao hướng đến trải nghiệm mượt mà với SPA.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
-                    HTML
+                    React.js
                   </span>
                   <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
-                    CSS
+                    MongoDB
                   </span>
                   <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
-                    JavaScript
+                    Node.js
                   </span>
                 </div>
                 <div className="flex justify-between">
@@ -430,21 +429,23 @@ export const Home = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-xl text-white font-semibold mb-2">
-                  Mobile App UI
+                  Tic Tac Toe Game
                 </h3>
                 <p className="text-slate-400 mb-4">
-                  A sleek mobile application interface with intuitive navigation
-                  and animations.
+                  Một tựa game đơn giản kết hợp với thuật toán trí tuệ nhân tạo để phục vụ cho chế độ chơi với máy.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
-                    Figma
+                    React.js
                   </span>
                   <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
-                    UI/UX
+                    Node.js
                   </span>
                   <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
-                    Prototyping
+                    MongoDB
+                  </span>
+                   <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
+                    webSocket.io
                   </span>
                 </div>
                 <div className="flex justify-between">
