@@ -1,5 +1,5 @@
 // postcss.config.cjs
-module.exports = {
+export default {
   plugins: {
     // ✅ Thêm plugin nesting TRƯỚC Tailwind
     'postcss-nesting': {}, // hoặc 'postcss-nested': {}
