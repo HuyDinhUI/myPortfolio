@@ -36,7 +36,7 @@ export const Header = () => {
   
   return (
     <nav className="fixed w-full z-50 bg-slate-900/90 backdrop-blur-sm border-b border-slate-800 flex justify-center">
-      <div className="container w-[90vw] px-4 py-4 flex justify-between items-center">
+      <div className="container max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold gradient-text">
           Portfolio
         </a>

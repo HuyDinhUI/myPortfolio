@@ -20,7 +20,7 @@ export const Home = () => {
         id="home"
         className="min-h-screen flex items-center justify-center relative pt-16"
       >
-        <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center">
+        <div className="container max-w-7xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-white text-4xl md:text-6xl font-bold mb-6">
               Chào, Tôi Là{" "}
@@ -73,7 +73,7 @@ export const Home = () => {
       {/************** ABOUT ************/}
 
       <section id="about" className="py-20 bg-slate-900">
-        <div className="container mx-auto px-4">
+        <div className="container max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl text-white md:text-4xl font-bold mb-4">
               Thông Tin <span className="gradient-text">Cá Nhân</span>
@@ -152,7 +152,7 @@ export const Home = () => {
       {/************** SKILL **************/}
 
       <section id="skills" className="py-20 bg-slate-800/50">
-        <div className="container mx-auto px-4">
+        <div className="container max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl text-white md:text-4xl font-bold mb-4">
               Kỹ Năng <span className="gradient-text">Chuyên Môn</span>
@@ -367,7 +367,7 @@ export const Home = () => {
       {/*********** PROJECTS ***********/}
 
       <section id="projects" className="py-20 bg-slate-900">
-        <div className="container mx-auto px-4">
+        <div className="container max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl text-white md:text-4xl font-bold mb-4">
               Dự Án <span className="gradient-text">Cá Nhân</span>
@@ -522,12 +522,10 @@ export const Home = () => {
         </div>
       </section>
 
-      
-
       {/*************** CONTACT ***************/}
 
       <section id="contact" class="py-20 bg-slate-800/50">
-        <div class="container mx-auto px-4">
+        <div class="container max-w-7xl mx-auto px-4">
           <div class="text-center mb-16">
             <h2 class="text-3xl text-white md:text-4xl font-bold mb-4">
               Liên Hệ <span class="gradient-text">Làm Việc</span>
