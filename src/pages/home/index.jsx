@@ -474,26 +474,25 @@ export const Home = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-xl text-white font-semibold mb-2">
-                  E-commerce Platform
+                  Website Thương Mại Điện Tử
                 </h3>
                 <p className="text-slate-400 mb-4">
-                  A complete e-commerce solution with product catalog and
-                  checkout system.
+                  Trang web bán mỹ phẩm với đầy đủ tính năng cơ bản và nâng cao được viết bằng ngôn ngữ thuần PHP.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
-                    React
+                    PHP
                   </span>
                   <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
-                    Node.js
+                    Tailwind
                   </span>
                   <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
-                    MongoDB
+                    Cloudinary
                   </span>
                 </div>
                 <div className="flex justify-between">
                   <a
-                    href="#"
+                    href="https://github.com/toine1234/The-Ordinary.git"
                     className="text-blue-400 hover:text-blue-300 transition flex items-center"
                   >
                     <span>Xem Chi Tiết</span>
