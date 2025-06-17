@@ -225,7 +225,7 @@ export const Home = () => {
 
                 <div>
                   <div className="flex justify-between mb-1">
-                    <span className="text-white">Python</span>
+                    <span className="text-white">PHP</span>
                     <span className="text-slate-400">75%</span>
                   </div>
                   <div className="h-2 bg-slate-800 rounded-full">
@@ -345,16 +345,10 @@ export const Home = () => {
                 Redux
               </span>
               <span className="skill-pill px-4 py-2 bg-slate-800 text-slate-300 rounded-full border border-slate-700 hover:border-blue-400">
-                GraphQL
+                Rest API 
               </span>
               <span className="skill-pill px-4 py-2 bg-slate-800 text-slate-300 rounded-full border border-slate-700 hover:border-blue-400">
                 MongoDB
-              </span>
-              <span className="skill-pill px-4 py-2 bg-slate-800 text-slate-300 rounded-full border border-slate-700 hover:border-blue-400">
-                PostgreSQL
-              </span>
-              <span className="skill-pill px-4 py-2 bg-slate-800 text-slate-300 rounded-full border border-slate-700 hover:border-blue-400">
-                Docker
               </span>
               <span className="skill-pill px-4 py-2 bg-slate-800 text-slate-300 rounded-full border border-slate-700 hover:border-blue-400">
                 AWS
@@ -380,6 +374,48 @@ export const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="project-card bg-slate-900 rounded-xl overflow-hidden border border-slate-800">
+              <div className="h-48 bg-gradient-to-br from-green-400 to-teal-500 relative overflow-hidden">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <i className="fas fa-store text-5xl text-white opacity-50"></i>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl text-white font-semibold mb-2">
+                  Website Thương Mại Điện Tử
+                </h3>
+                <p className="text-slate-400 mb-4">
+                  Trang web bán mỹ phẩm với đầy đủ tính năng cơ bản và nâng cao được viết bằng ngôn ngữ thuần PHP.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
+                    PHP
+                  </span>
+                  <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
+                    Tailwind
+                  </span>
+                  <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
+                    Cloudinary
+                  </span>
+                </div>
+                <div className="flex justify-between">
+                  <a
+                    href="https://github.com/toine1234/The-Ordinary.git"
+                    className="text-blue-400 hover:text-blue-300 transition flex items-center"
+                  >
+                    <span>Xem Chi Tiết</span>
+                    <FontAwesomeIcon className="mx-2" icon={faArrowRight} />
+                  </a>
+                  <a
+                    href="#"
+                    className="text-slate-400 hover:text-white transition"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="opacity-50 project-card bg-slate-900 rounded-xl overflow-hidden border border-slate-800">
               <div className="h-48 bg-gradient-to-br from-blue-400 to-indigo-500 relative overflow-hidden">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <i className="fas fa-laptop-code text-5xl text-white opacity-50"></i>
@@ -421,7 +457,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="project-card bg-slate-900 rounded-xl overflow-hidden border border-slate-800">
+            <div className="opacity-50 project-card bg-slate-900 rounded-xl overflow-hidden border border-slate-800">
               <div className="h-48 bg-gradient-to-br from-purple-400 to-pink-500 relative overflow-hidden">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <i className="fas fa-mobile-alt text-5xl text-white opacity-50"></i>
@@ -466,47 +502,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="project-card bg-slate-900 rounded-xl overflow-hidden border border-slate-800">
-              <div className="h-48 bg-gradient-to-br from-green-400 to-teal-500 relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <i className="fas fa-store text-5xl text-white opacity-50"></i>
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl text-white font-semibold mb-2">
-                  Website Thương Mại Điện Tử
-                </h3>
-                <p className="text-slate-400 mb-4">
-                  Trang web bán mỹ phẩm với đầy đủ tính năng cơ bản và nâng cao được viết bằng ngôn ngữ thuần PHP.
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
-                    PHP
-                  </span>
-                  <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
-                    Tailwind
-                  </span>
-                  <span className="px-3 py-1 bg-slate-800 text-slate-300 text-xs rounded-full">
-                    Cloudinary
-                  </span>
-                </div>
-                <div className="flex justify-between">
-                  <a
-                    href="https://github.com/toine1234/The-Ordinary.git"
-                    className="text-blue-400 hover:text-blue-300 transition flex items-center"
-                  >
-                    <span>Xem Chi Tiết</span>
-                    <FontAwesomeIcon className="mx-2" icon={faArrowRight} />
-                  </a>
-                  <a
-                    href="#"
-                    className="text-slate-400 hover:text-white transition"
-                  >
-                    <FontAwesomeIcon icon={faGithub} />
-                  </a>
-                </div>
-              </div>
-            </div>
+            
           </div>
 
           <div className="text-center mt-12">
